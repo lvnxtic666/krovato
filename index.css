@@ -8,6 +8,7 @@
     --color-gray-light:rgba(177, 177, 177, 1);
     --color-yellow:rgba(255, 188, 87, 1);
     --color-white:rgba(255, 255, 255, 1);
+    --color-secondary-white:rgba(227, 226, 226, 1);
 }
 @font-face {
 	font-family:  'main font';
@@ -232,3 +233,91 @@ body{
 .categories__title sup{
     color: var(--color-gray-light);
 }
+.categories__expand-button{
+    flex: 0 0 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--color-yellow);
+    margin-top: 10px;
+}
+.catalog{
+    display: flex;
+    gap: 30px;
+}
+.filters{
+    background-color: var(--color-white);
+    border-radius: 8px;
+    border: 1px solid var(--color-secondary-white);
+    max-width: 300px;
+    display: flex;
+    flex-direction:column;
+}
+.filters__group{
+    border: 1px solid var(--color-secondary-white);
+}
+.filters__group-header{
+    display: flex;
+    background-color: var(--color-light);
+    box-shadow: 0 -1px 0 0 var(--color-light);
+    color: var(--color-dark);
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 18px 15px;
+}
+.filters__group-content{
+    padding: 15px 15px 20px;
+}
+.filters__group-item{
+    color: var(--color-dark);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.filters__group-a{
+    text-decoration: none;
+    color: var(--color-yellow);
+    border-bottom: 1px dotted var(--color-yellow);
+}
+.filters__header{
+    border: 1px solid var(--color-secondary-white);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    display: flex;
+    box-shadow: 0 -1px 0 0 var(--color-light);
+    color: var(--color-dark);
+    align-items: center;
+    padding: 20px;
+}
+.goods{
+    width: 960px;
+}
+.goods__menu-change{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.goods__menu-change-sorting{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.goods__list-button{
+    background-color: var(--color-white);
+    border-radius: 8px;
+    gap: 5px;
+    padding: 3px 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--color-gray-light);
+    font-family: inherit;
+    min-height: 46px;
+    min-width: 145;
+    color: var(--color-white);
+}
+
