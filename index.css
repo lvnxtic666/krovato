@@ -10,6 +10,7 @@ body{
     font-family: 'main font';
     color: var(--color-gray);
     background-color: var(--color-light);
+    margin: 0;
 }
 
 .container{
@@ -25,7 +26,6 @@ body{
 .header__nav{
     display: flex;
     gap: 30px;
-    
 }
 .header__link{
     text-decoration: none;
@@ -42,9 +42,13 @@ body{
     gap: 20px;
     color: var(--color-gray);
 }
-.header__support__link{
+.header__support-link{
     display: flex;
     gap: 10px;
+    align-items: center;
+}
+.header__support-link a{
+    display: flex;
 }
 .header__main{
     background-color: var(--color-white);
@@ -54,7 +58,9 @@ body{
 .header__main__container{
     display: flex;
     gap: 30px;
-
+}
+.logo{
+    display: flex;
 }
 .button{
     background-color: var(--color-yellow);
@@ -338,7 +344,7 @@ body{
     gap: 10px;
 }
 .goods__grid-card-icons a{
-    display: flex;  
+    display: flex; 
 }
 .goods__button{
     gap: 15px;
