@@ -531,7 +531,7 @@ body{
 .questions__list-item-active .questions__list-item-header{
     margin-bottom: 10px;
 }
-.questions__list-item-info{
+.questions__list-item-header .h5{
     color:var(--color-dark);
 }
 .questions__list-item-header .image{
@@ -542,6 +542,7 @@ body{
 }
 .questions__list-item-content p{
     color: var(--color-dark);
+
 }
 .advantages{
     display: flex;
